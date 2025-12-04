@@ -41,6 +41,7 @@ async def generate_post(input: i_generate_post):
         print("FATAL: something went wriong while generting the post: ", e)
         exit(0)
 
+
 # if __name__ == "__main__":
 #     import asyncio
 
@@ -50,3 +51,6 @@ async def generate_post(input: i_generate_post):
 #     )
 
 #     asyncio.run(generate_post(test_input))
+
+
+# your branch to mine --> master
