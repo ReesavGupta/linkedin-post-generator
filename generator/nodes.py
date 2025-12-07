@@ -41,12 +41,3 @@ async def generate_post(input: i_generate_post):
         print("FATAL: something went wriong while generting the post: ", e)
         exit(0)
 
-# if __name__ == "__main__":
-#     import asyncio
-
-#     test_input = i_generate_post(
-#         content="This is a test post about improving API response times.",
-#         niche=Niche.FULL_STACK_DEV
-#     )
-
-#     asyncio.run(generate_post(test_input))
